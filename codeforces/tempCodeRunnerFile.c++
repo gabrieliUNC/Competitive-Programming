@@ -1,1 +1,1 @@
-if(find(m.begin(), m.end(), temp)!=m.end()){ m[temp]++; }
+TxtIO
