@@ -28,7 +28,8 @@
 			"bitset": "cpp",
 			"numeric": "cpp",
 			"cmath": "cpp",
-			"iomanip": "cpp"
+			"iomanip": "cpp",
+			"stdlib.h": "c"
 		}
 	}
 }
