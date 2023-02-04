@@ -4,8 +4,10 @@
 
 int main(){
     char para[1000];
-    scanf("%[^\n]s", para);
-    printf("%s", para);
+    
+    
+    char c; 
+    while((c=getchar())!=EOF)putchar(c);
 
 
 

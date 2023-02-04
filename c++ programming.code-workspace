@@ -29,7 +29,8 @@
 			"numeric": "cpp",
 			"cmath": "cpp",
 			"iomanip": "cpp",
-			"stdlib.h": "c"
+			"stdlib.h": "c",
+			"limits": "cpp"
 		}
 	}
 }

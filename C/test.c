@@ -3,9 +3,10 @@
 
 
 int main(){
-    int n, k;
-    scanf("%d %d", &n, &k);
-    int a[n], ans[k], s = 0;
-    for(int i = 0; i < n; ++i)scanf("%d", &a[i]);
-    return 0;
+    int A[10] = {1, 2, 3, 4, 5, 6};
+
+    int *p = A;
+
+
+    printf("%d\n", p);
 }
