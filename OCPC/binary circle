@@ -1,0 +1,10 @@
+#include <stdio.h>
+/*Consider a binary circular array A. We have 2^N arrays that are mapped k elements ahead
+
+How many distinct arrays can be made?
+
+SUMMATION FORMULA SUM (a + 1) ^ (l) + l(a + 1) ^ (l + 1)
+
+
+
+*/

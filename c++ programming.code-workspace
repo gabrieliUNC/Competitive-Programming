@@ -30,7 +30,8 @@
 			"cmath": "cpp",
 			"iomanip": "cpp",
 			"stdlib.h": "c",
-			"limits": "cpp"
+			"limits": "cpp",
+			"bit_utils.h": "c"
 		}
 	}
 }

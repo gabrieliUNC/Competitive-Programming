@@ -1,0 +1,7 @@
+/*
+Count the number of Hamiltonian Cycles
+
+Count the shortest number of paths passing [i, i + 1] which is 2 * max(1, |w_i - b_i|)
+
+
+*/

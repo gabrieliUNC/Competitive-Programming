@@ -52,7 +52,7 @@ int main(){
         int j = 0;
         for(char c: s){
             a[i][j] = c;
-            if(a[i][j] == '.')dots++;
+            if(a[i][j] == '.')++dots;
             else if((c != 'X') && (c != ' ')){entrances.push_back({i, j});}
             j++;
         }
@@ -65,6 +65,7 @@ int main(){
     int first = 0;
 
     for(pair<int, int> e: entrances){
+        cout << dots << '\n';
         int temp = dots;
         if(dots > 0)dfs(a, e.first, e.second, dots, v, x, y);
         else break;
