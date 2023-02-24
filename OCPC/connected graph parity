@@ -1,0 +1,11 @@
+/*
+
+There is a hidden connected unweighted graph with n nodes. We know the parity of dist(u, v) 
+for all u, v. Find the original graph with n <= 500.
+
+1. If dist(u, v) is even, there cant be an edge between them
+2. If dist(u, v) is odd, there may be a edge between them
+
+Adding any edge will not make a solution invalid because it will alter shortest path by 0 (even)
+
+*/
