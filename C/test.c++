@@ -1,19 +1,24 @@
 #include <bits/stdc++.h>
 #include <stdio.h>
 #include <stdlib.h>
-#define TxtIO   freopen("input.txt","r",stdin); freopen("output.txt","w+",stdout);
 using namespace std;
 
 
-int mystery(char *s){
-    char *t;
-    for(t = s; *t != '\0'; t++);
-    return t - s;
-}
+int x = 1;
 
 int main(){
-    char string0[] = "COMP Joke:";
-    printf("%d", mystery(string0));
+
+    fork();
+    
+    if(pid == 0){
+        printf("child: %d\n", x++);
+        exit(0);
+    }
+    else{
+        printf("parent: %d\n", x--);
+    }
+
+    return 0;
 
 
 

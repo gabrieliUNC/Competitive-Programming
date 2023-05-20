@@ -31,7 +31,20 @@
 			"iomanip": "cpp",
 			"stdlib.h": "c",
 			"limits": "cpp",
-			"bit_utils.h": "c"
+			"bit_utils.h": "c",
+			"atomic": "cpp",
+			"bit": "cpp",
+			"charconv": "cpp",
+			"memory_resource": "cpp",
+			"memory": "cpp",
+			"fstream": "cpp",
+			"istream": "cpp",
+			"spanstream": "cpp",
+			"sstream": "cpp",
+			"stdexcept": "cpp",
+			"syncstream": "cpp",
+			"tuple": "cpp",
+			"type_traits": "cpp"
 		}
 	}
 }
