@@ -44,7 +44,6 @@ int main(){
     string target; cin >> target;
 
     found = string(target.size(), '#');
-    
 
     vector<string> words(n);
     for(int i = 0; i < n; ++i) cin >> words[i];
