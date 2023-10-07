@@ -5,15 +5,20 @@ using namespace std;
 const int N = 1e6 + 8;
 ll memo[N];
 
+int num = INT_MAX;
 
-bool can_sum(ll target, vector<ll> nums){
-    if(memo[target] != -1) return memo[target];
-    if(target == 0) return true;
+bool can_sum(ll target, vector<ll> nums, int depth){
+    cout << target << ':' << depth << '\n';
+    // if(memo[target] != -1) return memo[target];
+    if(target == 0){
+        num = min(num, depth);
+        memo[target] = 1;
+        return true;
+    }
     if(target < 0) return false;
 
     for(ll e: nums){
-        if(can_sum(target - e, nums)){
-            memo[target] = 1;
+        if(can_sum(target - e, nums, depth + 1)){
             return true;
         }
     }
@@ -33,9 +38,12 @@ int main(){
         ll e; cin >> e;
         a.push_back(e);
     }
+
+    sort(a.begin(), a.end(), greater<int>());
     
     cout << boolalpha;
-    cout << can_sum(target, a) << '\n';
+    cout << can_sum(target, a, 0) << '\n';
+    cout << num << '\n';
 
 
     return 0;

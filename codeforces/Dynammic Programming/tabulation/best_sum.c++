@@ -32,6 +32,8 @@ int main(){
 
     int target; cin >> target;
 
+
+    cout << dp[target].size() << '\n';
     for(int e: dp[target]) cout << e << ' ';
     cout << '\n';
 

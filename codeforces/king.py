@@ -1,3 +1,4 @@
+
 s = input()
 x = s.find('.')
 if int(s[x - 1]) == 9: print("GOTO Vasilisa.")
