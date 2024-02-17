@@ -1,0 +1,1 @@
+{"name":"Local: convoy","url":"c:\\Users\\gs457\\vscode\\kattis\\convoy.cpp","tests":[{"id":1706842943439,"input":"11 2\n12000\n9000\n4500\n10000\n12000\n11000\n12000\n18000\n10000\n9000\n12000","output":"13500"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\gs457\\vscode\\kattis\\convoy.cpp","group":"local","local":true}

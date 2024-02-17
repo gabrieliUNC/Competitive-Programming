@@ -1,0 +1,1 @@
+{"name":"Local: tomas","url":"c:\\Users\\gs457\\vscode\\tomas.cpp","tests":[{"id":1706142065056,"input":"2\n2\n6","output":"3\n11"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\gs457\\vscode\\tomas.cpp","group":"local","local":true}

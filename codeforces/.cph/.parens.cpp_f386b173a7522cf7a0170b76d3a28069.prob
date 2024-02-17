@@ -1,0 +1,1 @@
+{"name":"Local: parens","url":"c:\\Users\\gs457\\vscode\\CodeForces\\parens.cpp","tests":[{"id":1706917707613,"input":"(()))(\n","output":"4"},{"id":1706917802949,"input":"((()())","output":"6"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\gs457\\vscode\\CodeForces\\parens.cpp","group":"local","local":true}
