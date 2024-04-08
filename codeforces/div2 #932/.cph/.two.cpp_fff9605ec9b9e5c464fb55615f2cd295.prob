@@ -1,0 +1,1 @@
+{"name":"Local: two","url":"c:\\Users\\gs457\\vscode\\CodeForces\\div2 #932\\two.cpp","tests":[{"id":1709655531702,"input":"1\n8\n0 1 7 1 0 1 0 3\n","output":"\n3\n1 3\n4 5\n6 8\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\gs457\\vscode\\CodeForces\\div2 #932\\two.cpp","group":"local","local":true}
