@@ -1,6 +1,15 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+struct pairhash {
+public:
+  template <typename T, typename U>
+  std::size_t operator()(const std::pair<T, U> &x) const
+  {
+    return std::hash<T>()(x.first) ^ std::hash<U>()(x.second);
+  }
+};
+
 struct custom_hash {
     static uint64_t splitmix64(uint64_t x) {
         x += 0x9e3779b97f4a7c15;

@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+#define ll long long
+using namespace std;
 struct Fen {
     vector<ll> bit;  // binary indexed tree
     int n;
@@ -29,4 +32,29 @@ struct Fen {
         add(r + 1, -val);
     }
 
+    int point_query(int idx) {
+        int ret = 0;
+        for (++idx; idx > 0; idx -= idx & -idx)
+            ret += bit[idx];
+        return ret;
+    }
+
 };
+
+int main() {
+    int n; cin >> n;
+
+    Fen fenny(n);
+    fenny.range_add(0, 2, 1);
+
+    for(int i = 0; i < n; ++i) cout << fenny.point_query(i) << ' ';
+
+
+
+
+
+
+
+
+    return 0;
+}
